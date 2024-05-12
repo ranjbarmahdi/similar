@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  node-app:
+    user: root
+    build:
+      context: .
+    ports:
+      - "3006-3057:3006"
+    volumes:
+      - "./input:/usr/src/app/input"
+      - "./output:/usr/src/app/output"
+      - "./notSimilar:/usr/src/app/notSimilar"

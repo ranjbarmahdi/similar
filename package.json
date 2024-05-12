@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@tensorflow-models/universal-sentence-encoder": "*",
+    "@tensorflow/tfjs": "^3.7.0",
+    "@tensorflow/tfjs-node": "^3.7.0",
+    "assert-options": "^0.8.1",
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "pg-promise": "^11.5.4",
+    "string-similarity": "^4.0.4"
+  }
+}

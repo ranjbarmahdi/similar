@@ -1,0 +1,16 @@
+TO Do mehdi 
+===========================
+new branch
+cron job daily
+add .env.example for all security data 
+suggest ways to use tensorflow
+memory problem
+change name of all csv files to use pattern
+add currency for all csv files
+add xpath pattern in all csv files (xpath_column)
+install dbeaver
+export result (csv) from db
+
+np
+============================
+
