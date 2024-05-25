@@ -323,7 +323,7 @@ async function processChunk(
 
           x = {}
           x['id'] = ''
-          x['sellerid'] = '36120'
+          x['sellerid'] = sellerID
           x['productid'] = mostSimilarProduct.id;
           x['brandid'] = mostSimilarProduct.brandId;
           x['url'] = url;
