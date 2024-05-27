@@ -158,13 +158,17 @@ function convertToNumeric(value) {
     "۸": "8",
     "۹": "9",
   };
-  const convertedValue =
-    value.replace(/[۰-۹]/g, (match) => {
-      const numeric = numericMap[match];
-      return numeric;
-    }) || value;
-  return convertedValue;
-}
+  try {
+    const convertedValue =
+      value.replace(/[۰-۹]/g, (match) => {
+        const numeric = numericMap[match];
+        return numeric;
+      }) || value;
+    return convertedValue;
+  } catch (error) {
+  }
+    return value;
+  }
 
 const extractBrandAndSellerID = (csvFileName) => {
   const [brandID, sellerID, currency] = csvFileName
